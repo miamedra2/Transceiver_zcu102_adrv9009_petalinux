@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Oct 14 19:55:47 2020
+# Process ID: 14110
+# Current directory: /home/mmedrano/Desktop/zcu102_adrv9009
+# Command line: vivado
+# Log file: /home/mmedrano/Desktop/zcu102_adrv9009/vivado.log
+# Journal file: /home/mmedrano/Desktop/zcu102_adrv9009/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/mmedrano/github/adi/hdl/projects/adrv9009/zcu102/adrv9009_zcu102.xpr
+open_run synth_1 -name synth_1
+update_compile_order -fileset sources_1

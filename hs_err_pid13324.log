@@ -1,0 +1,28 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/home/mmedrano/software/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/lib//server/libjvm.so(+0xb6aadb) [0x7f6b6ece9adb]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/lib//server/libjvm.so(JVM_handle_linux_signal+0xbb) [0x7f6b6eceee1b]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/lib//server/libjvm.so(+0xb647b8) [0x7f6b6ece37b8]
+/lib64/libc.so.6(+0x36400) [0x7f6bb963e400]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/lib/lnx64.o/librdi_common.so(std::_Hashtable<hdi::tcltasks::detail::collection_wrapper_base const*, std::pair<hdi::tcltasks::detail::collection_wrapper_base const* const, Tcl_Obj*>, std::allocator<std::pair<hdi::tcltasks::detail::collection_wrapper_base const* const, Tcl_Obj*> >, std::__detail::_Select1st, std::equal_to<hdi::tcltasks::detail::collection_wrapper_base const*>, boost::hash<hdi::tcltasks::detail::collection_wrapper_base const*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, false> >::equal_range(hdi::tcltasks::detail::collection_wrapper_base const* const&)+0x28) [0x7f6bba959248]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/lib/lnx64.o/librdi_common.so(hdi::tcltasks::detail::collection_wrapper_base::~collection_wrapper_base()+0xb5) [0x7f6bba958695]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/lib/lnx64.o/librdi_common.so(+0x5ce79a) [0x7f6bba74579a]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/lib/lnx64.o/librdi_common.so(hdi::tcltasks::detail::collection_wrapper_base::decr_ref() const+0x19) [0x7f6bba957839]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/lib/lnx64.o/librdi_commontasks.so(+0x2d38e0) [0x7f6ba97be8e0]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/lib/lnx64.o/librdi_commontasks.so(+0x2cbc20) [0x7f6ba97b6c20]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/lib/lnx64.o/librdi_commontasks.so(+0x2cbc89) [0x7f6ba97b6c89]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/lib/lnx64.o/libboost_program_options.so(boost::program_options::option_description::~option_description()+0x7a) [0x7f6bb7dc0c5a]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/lib/lnx64.o/libboost_program_options.so(boost::program_options::option_description::~option_description()+0x9) [0x7f6bb7dc0c99]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/lib/lnx64.o/librdi_common.so(hdi::tcltasks::options_description::~options_description()+0x144) [0x7f6bba96cde4]
+/lib64/libc.so.6(+0x39ce9) [0x7f6bb9641ce9]
+/lib64/libc.so.6(+0x39d37) [0x7f6bb9641d37]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/lib//server/libjvm.so(+0x838e07) [0x7f6b6e9b7e07]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/lib//server/libjvm.so(+0xd5d4f9) [0x7f6b6eedc4f9]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/lib//server/libjvm.so(+0xd5b243) [0x7f6b6eeda243]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/lib//server/libjvm.so(+0xd5b7b0) [0x7f6b6eeda7b0]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/lib//server/libjvm.so(+0xd5bcc2) [0x7f6b6eedacc2]
+/home/mmedrano/software/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/lib//server/libjvm.so(+0xb6e132) [0x7f6b6eced132]
+/lib64/libpthread.so.0(+0x7ea5) [0x7f6bb93f3ea5]
+/lib64/libc.so.6(clone+0x6d) [0x7f6bb97068dd]
